@@ -13,6 +13,9 @@ This repository contains utilities and tools for computer and development enviro
 1. Git configuration
 1. [Exa](https://the.exa.website)
 1. [Difftastic](https://difftastic.wilfred.me.uk)
+1. [Hack Font](https://sourcefoundry.org/hack/)
+1. [Amazon Ember Font](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography)
+1. [Iconsolata Font](https://fonts.google.com/specimen/Inconsolata)
 
 ## Other Tools (MacOS)
 
@@ -25,5 +28,6 @@ This repository contains utilities and tools for computer and development enviro
 1. [Jetbrains App Toolbox](https://www.jetbrains.com/toolbox-app/)
 1. [Bartender](https://www.macbartender.com)
 1. [Gifox](http://gifox.app)
+1. [Texifier](https://www.texifier.com)
 
 ## First-Time Computer Setup
