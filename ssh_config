@@ -1,0 +1,32 @@
+Host bend
+  HostName bend
+  User deddy
+
+Host github.com
+  IdentityFile ~/.ssh/github
+  PreferredAuthentications publickey
+
+Host rpi1
+  IdentityFile ~/.ssh/rpi
+  HostName 192.168.1.101
+  User rpi
+
+Host rpi2
+  IdentityFile ~/.ssh/rpi
+  HostName 192.168.1.102
+  User rpi
+
+Host rpi3
+  IdentityFile ~/.ssh/rpi
+  HostName 192.168.1.103
+  User rpi
+
+Host rpi4
+  IdentityFile ~/.ssh/rpi
+  HostName 192.168.1.104
+  User rpi
+
+Host bethpage cambridge cheonan tula jodhpur oceanside astoria
+  User deddy
+  Preferredauthentications publickey
+  IdentityFile ~/.ssh/prometheus_sisl_compute_cluster
