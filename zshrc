@@ -37,6 +37,7 @@ alias l='exa'
 alias la='exa -a'
 alias ll='exa -lah'
 alias ls='exa --color=auto'
+alias j='julia'
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
 
 ## Program Configuration / Setup
