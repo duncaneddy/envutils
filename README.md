@@ -31,3 +31,15 @@ This repository contains utilities and tools for computer and development enviro
 1. [Texifier](https://www.texifier.com)
 
 ## First-Time Computer Setup
+
+Install nvm (node version manager)
+
+```bash
+brew install nvm # Be sure to add the recommended lines to your .zshrc
+```
+
+Install terminalizer
+
+```bash
+npm install -g terminalizer
+```
