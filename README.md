@@ -17,6 +17,7 @@ This repository contains utilities and tools for computer and development enviro
 1. [Hack Font](https://sourcefoundry.org/hack/)
 1. [Amazon Ember Font](https://developer.amazon.com/en-US/alexa/branding/echo-guidelines/identity-guidelines/typography)
 1. [Iconsolata Font](https://fonts.google.com/specimen/Inconsolata)
+1. [XKCD Font](https://github.com/ipython/xkcd-font/tree/master/xkcd-script/font)
 
 ## Other Tools (MacOS)
 
