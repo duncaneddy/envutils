@@ -31,14 +31,7 @@ source $ZSH/oh-my-zsh.sh
 
 ## Aliases
 
-alias cdr='cd ~/repos'
-
-alias l='exa'
-alias la='exa -a'
-alias ll='exa -lah'
-alias ls='exa --color=auto'
-alias j='julia'
-alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+source $HOME/.aliases.sh
 
 ## Program Configuration / Setup
 

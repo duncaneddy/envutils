@@ -46,3 +46,17 @@ Install terminalizer
 ```bash
 npm install -g terminalizer
 ```
+
+## Quick-Update
+
+To update all shell configurations run the following 
+
+```bash
+make all
+```
+
+To only update aliases use
+
+```bash
+make aliases
+```
