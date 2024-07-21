@@ -1,10 +1,10 @@
 alias cdr='cd ~/repos'
 alias cdp='cd ~/presentations'
 
-alias l='exa'
-alias la='exa -a'
-alias ll='exa -lah'
-alias ls='exa --color=auto'
+alias l='eza'
+alias la='eza -a'
+alias ll='eza -lah'
+alias ls='eza --color=auto'
 
 alias j='julia'
 

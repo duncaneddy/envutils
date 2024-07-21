@@ -11,7 +11,7 @@ This repository contains utilities and tools for computer and development enviro
 1. [Zsh Syntax highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 1. Vim configuration
 1. Git configuration
-1. [Exa](https://the.exa.website)
+1. [Eza](https://github.com/eza-community/eza)
 1. [Difftastic](https://difftastic.wilfred.me.uk)
 1. [lnav](https://lnav.org/)
 1. [Hack Font](https://sourcefoundry.org/hack/)
