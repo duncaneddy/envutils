@@ -19,6 +19,7 @@ This repository contains utilities and tools for computer and development enviro
 1. [Iconsolata Font](https://fonts.google.com/specimen/Inconsolata)
 1. [XKCD Font](https://github.com/ipython/xkcd-font/tree/master/xkcd-script/font)
 2. [Monaspace Font](https://github.com/githubnext/monaspace#monaspace)
+3. [Typst](https://github.com/typst/typst)
 
 ## Other Tools (MacOS)
 
