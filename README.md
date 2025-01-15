@@ -62,3 +62,12 @@ To only update aliases use
 ```bash
 make aliases
 ```
+
+
+## Misc Notes
+
+### Git config
+
+```
+git config --global push.autoSetupRemote True
+```
