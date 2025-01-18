@@ -1,5 +1,4 @@
 alias cdr='cd ~/repos'
-alias cdp="cd ~/Library/CloudStorage/GoogleDrive-deddy@stanford.edu/My\ Drive/Presentations"
 
 alias l='eza'
 alias la='eza -a'
