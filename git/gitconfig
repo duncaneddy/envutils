@@ -1,0 +1,116 @@
+# vim: set ts=2 sw=2 noet filetype=gitconfig:
+
+[core]
+	compression = 0
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+	ignorecase = false
+	editor = vim -X
+	; -X:           don't talk to X11 on startup
+	; -R:           read only mode
+	; -n:           don't use a swap file
+	; -c:           run command on start, after autocmd/modeline
+	pager = ifne vim -X -R - -n -c 'set filetype=git nowrap noro'
+	sparseCheckoutCone = 1
+[user]
+	name = Duncan Eddy
+	useConfigOnly = true ; force me to set email in repo local config
+[advice]
+	detachedHead = false
+    addIgnored = false
+[pager]
+	log = less
+	branch = less
+	# Use a pager if the difftool output is larger than one screenful,
+    # consistent with the behaviour of `git diff`.
+	difftool = true
+[color]
+	; Vim/Kakoune can syntax highlight just fine on their own, and don't understand
+	; colour codes, so we disable the colouring when using Vim-paged commands
+	diff = false
+	show = false
+[init]
+	defaultBranch = main
+[commit]
+	template = ~/.gitmessage
+[push]
+	autoSetupRemote = true
+	default = current
+[fetch]
+	prune = true
+	writeCommitGraph = true
+[pull]
+	ff = only
+[difftool]
+    # Run the difftool immediately, don't ask 'are you sure' each time.
+    prompt = false   
+[diff]
+    # Set difftastic as the default difftool, so we don't need to specify
+    # `-t difftastic` every time.
+    tool = difftastic
+    external = difft
+[grep]
+	lineNumber = true
+	extendedRegexp = true
+	fallbackToNoIndex = true
+[alias]
+	# Display all aliases :)
+	aliases = ! git config --list | awk '/alias/{ print $1 }' | perl -pe 's/alias\\.//g' | perl -pe 's/=.+//g'
+
+	# Short aliases for simple commands
+	a = add
+	ap = -c color.diff=true add --patch
+	b = branch
+	ba = branch -a
+	c = commit -v
+	car = commit --amend --no-edit
+	cmsg = commit -m
+	co = checkout
+	dc = diff --word-diff-regex=.
+	dca = diff --cached
+	dcac = diff --cached --word-diff-regex=.
+	dcaw = diff --cached --word-diff
+	dw = diff --word-diff
+    
+    # Difftastic aliases, so `git dlog` is `git log` with difftastic and so on.
+    dlog = -c diff.external=difft log --ext-diff
+    dshow = -c diff.external=difft show --ext-diff
+    ddiff = -c diff.external=difft diff
+
+    # `git log` with patches shown with difftastic.
+    dl = -c diff.external=difft log -p --ext-diff
+    # Show the most recent commit with difftastic.
+    ds = -c diff.external=difft show --ext-diff
+    # `git diff` with difftastic.
+    dft = -c diff.external=difft diff
+
+	f = fetch
+	fa = fetch --all --prune
+	fp = fetch --prune
+	l = -c color.diff=true log
+	lg = -c color.diff=true log --oneline --decorate --graph
+	lga = -c color.diff=true log --oneline --decorate --graph --all
+	lgb = -c color.diff=true log --oneline --decorate --graph --branches
+	lo = -c color.diff=true log --oneline --decorate
+	mff = merge --ff-only --no-stat
+	# Safer alternative to --force
+	pf = push --force-with-lease
+	r = remote
+	ra = remote add
+	rb = ! "f() { \
+		git rebase -i `git merge-base HEAD $1`; \
+	}; f"
+	; rbm = ! "git rebase -i `git merge-base HEAD master`"
+	; rbt = ! "git rebase -i `git merge-base HEAD trunk`"
+	re = restore
+	rmv = remote rename
+	rrm = remote remove
+	rv = remote -v
+	s = status --short --branch
+	sc = show --compact-summary
+	sdc = show --word-diff-regex=.
+	sdw = show --word-diff
+	sp = sparse-checkout
+	st = status
+	sw = switch
+	wk = worktree

@@ -1,0 +1,10 @@
+# Title: Summary, imperative, start upper case, don't end with a period
+# <title>
+# No more than 50 chars. #### 50 chars is here: #
+
+<body> 
+# Wrap at 72 chars. ################################## which is here: #
+
+# Template Style: 
+# How to Write a Git Commit Message:
+# https://chris.beams.io/posts/git-commit/
