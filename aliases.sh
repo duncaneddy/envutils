@@ -20,8 +20,7 @@ fi
 # Add alias for uv-latest python pip to pip
 alias pip='python -m pip'
 
-# Create function "ai-tunnel" that takes in a hostname and creates and ssh tunnel to that host
-
+# Create function to tunnel into Applied Intuition server
 function ai-tunnel() {
     if [[ -z "$1" ]]; then
         echo "Usage: ai-tunnel <hostname>"
