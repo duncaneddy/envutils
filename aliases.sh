@@ -19,3 +19,15 @@ fi
 
 # Add alias for uv-latest python pip to pip
 alias pip='python -m pip'
+
+# Create function "ai-tunnel" that takes in a hostname and creates and ssh tunnel to that host
+
+function ai-tunnel() {
+    if [[ -z "$1" ]]; then
+        echo "Usage: ai-tunnel <hostname>"
+        return 1
+    fi
+
+    # Command to execute to create tunnel
+    ssh -tTN -L 9999:localhost:8888 deddy@$1
+}
