@@ -16,3 +16,6 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
     alias update='brew update && brew upgrade && rustup update && juliaup update'
 fi
+
+# Add alias for uv-latest python pip to pip
+alias pip='python -m pip'
