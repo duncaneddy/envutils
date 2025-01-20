@@ -17,8 +17,8 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
     alias update='brew update && brew upgrade && rustup update && juliaup update'
 fi
 
-# Add alias for uv-latest python pip to pip
-alias pip='python -m pip'
+# Add convenience for activating local virtualenv
+alias venv='source venv/bin/activate'
 
 # Create function to tunnel into Applied Intuition server
 function ai-tunnel() {
