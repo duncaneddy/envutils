@@ -35,3 +35,8 @@ source $ZSH/oh-my-zsh.sh
 source $HOME/.aliases.sh
 
 ## Program Configuration / Setup
+
+# uv setup
+. "$HOME/.local/bin/env"
+eval "$(uv generate-shell-completion zsh)"
+eval "$(uvx --generate-shell-completion zsh)"
