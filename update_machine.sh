@@ -7,5 +7,4 @@ cp ./git/gitignore_global ~/.gitignore_global
 cp aliases.sh ~/.aliases.sh
 cp zshenv ~/.zshenv
 cp zshrc ~/.zshrc
-cp aliases ~/.aliases.sh
 cp vimrc ~/.vimrc
