@@ -36,6 +36,16 @@ This repository contains utilities and tools for computer and development enviro
 1. [Texifier](https://www.texifier.com)
 1. [Monodraw](https://monodraw.helftone.com/)
 
+## Brew Installs
+
+- btop
+- htop
+- lazygit
+- mactex (texlive cask)
+- ffmpeg
+- cbc
+- juliaup
+
 ## First-Time Computer Setup
 
 Install nvm (node version manager)
