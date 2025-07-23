@@ -45,6 +45,8 @@ This repository contains utilities and tools for computer and development enviro
 - ffmpeg
 - cbc
 - juliaup
+- nethogs
+- ifconfig
 
 ## First-Time Computer Setup
 
