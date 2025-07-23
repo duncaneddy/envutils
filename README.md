@@ -21,6 +21,7 @@ This repository contains utilities and tools for computer and development enviro
 1. [Monaspace Font](https://github.com/githubnext/monaspace#monaspace)
 1. [Typst](https://github.com/typst/typst)
 1. [Docker](https://www.docker.com)
+1. [ACT](https://github.com/nektos/act)
 
 ## Other Tools (MacOS)
 
