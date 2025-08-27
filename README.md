@@ -37,6 +37,7 @@ This repository contains utilities and tools for computer and development enviro
 1. [Gifox](http://gifox.app)
 1. [Texifier](https://www.texifier.com)
 1. [Monodraw](https://monodraw.helftone.com/)
+1. [ShortcutDetective](https://formulae.brew.sh/cask/shortcutdetective)
 
 ## Brew Installs
 
