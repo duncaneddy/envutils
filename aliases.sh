@@ -18,7 +18,7 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 fi
 
 # Add convenience for activating local virtualenv
-alias venv='source venv/bin/activate'
+alias venv='source .venv/bin/activate'
 
 # Create function to tunnel into Applied Intuition server
 function ai-tunnel() {
