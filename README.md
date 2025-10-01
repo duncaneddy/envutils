@@ -38,6 +38,8 @@ This repository contains utilities and tools for computer and development enviro
 1. [Texifier](https://www.texifier.com)
 1. [Monodraw](https://monodraw.helftone.com/)
 1. [ExcalidrawZ](https://github.com/chocoford/ExcalidrawZ)
+1. [Atuin Desktop](https://man.atuin.sh/)
+1. [Atuin CLI](https://docs.atuin.sh/)
 
 ## Brew Installs
 
