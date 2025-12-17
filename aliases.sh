@@ -14,7 +14,7 @@ alias dc='docker-compose'
 # If mac os then add alias for tailscale
 if [[ "$OSTYPE" == "darwin"* ]]; then
     alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
-    alias update='brew update && brew upgrade && rustup update && juliaup update'
+    alias update='brew update && brew upgrade && rustup update && juliaup update && uv tool upgrade --all'
 fi
 
 # Add convenience for activating local virtualenv
