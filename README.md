@@ -23,6 +23,7 @@ This repository contains utilities and tools for computer and development enviro
 1. [Docker](https://www.docker.com)
 1. [ACT](https://github.com/nektos/act)
 1. [Atuin.sh](https://atuin.sh/)
+1. [Aerospace](https://github.com/nikitabobko/AeroSpace?tab=readme-ov-file)
 
 ## Other Tools (MacOS)
 
@@ -89,3 +90,5 @@ make aliases
 ```
 git config --global push.autoSetupRemote True
 ```
+
+nvim config https://github.com/josean-dev/dev-environment-files/tree/main
