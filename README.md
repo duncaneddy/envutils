@@ -24,6 +24,7 @@ This repository contains utilities and tools for computer and development enviro
 1. [ACT](https://github.com/nektos/act)
 1. [Atuin.sh](https://atuin.sh/)
 1. [Aerospace](https://github.com/nikitabobko/AeroSpace?tab=readme-ov-file)
+1. [Chezmoi](https://www.chezmoi.io/)
 
 ## Other Tools (MacOS)
 
